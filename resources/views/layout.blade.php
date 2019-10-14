@@ -104,11 +104,11 @@
                                 <li><a href="#">Pages</a>
                                     <ul class="dropdown">
                                         <li><a href="/">Home</a></li>
-                                        <li><a href="http://blog.test/blog">Archive Blog</a></li>
-                                        <li><a href="http://blog.test/post">Single Post</a></li>
-                                        <li><a href="http://blog.test/about-us">About</a></li>
-                                        <li><a href="http://blog.test/contact">Contact</a></li>
-                                        <li><a href="http://blog.test/typography.html">Typography</a></li>
+                                        <li><a href="/blog">Archive Blog</a></li>
+                                        <li><a href="/post">Single Post</a></li>
+                                        <li><a href="/about-us">About</a></li>
+                                        <li><a href="/contact">Contact</a></li>
+                                        <li><a href="/typography.html">Typography</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#">Catagories</a>
@@ -164,8 +164,8 @@
                                     </div>
                                 </li>
                                 <li><a href="#">Travel</a></li>
-                                <li><a href="http://blog.test/about-us">About</a></li>
-                                <li><a href="http://blog.test/contact">Contact</a></li>
+                                <li><a href="/about-us">About</a></li>
+                                <li><a href="/contact">Contact</a></li>
                             </ul>
 
                         </div>

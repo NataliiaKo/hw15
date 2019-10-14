@@ -21,6 +21,11 @@ Route::get('/about-us', function () {
     return view('about-us');
 });
 
+Route::get('/blog', function () {
+    return view('blog');
+});
+
+
 Route::get('/contact', function () {
     return view('contact');
 });
@@ -28,3 +33,4 @@ Route::get('/contact', function () {
 Route::get('/post', function () {
     return view('post');
 });
+

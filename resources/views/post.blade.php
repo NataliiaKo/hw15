@@ -1,8 +1,8 @@
 <!-- Шаблон отдельного поста-->
-@extends ('layout')
-@section('content')
+@extends ('2col-layout')
+@section('container')
     <!-- ##### Breadcrumb Area Start ##### -->
-    <div class="breadcrumb-area">
+{{--    <div class="breadcrumb-area">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -26,7 +26,7 @@
             <div class="row justify-content-center">
                 <!-- Blog Posts Area -->
                 <div class="col-12 col-lg-8">
-                    <div class="blog-posts-area">
+                    <div class="blog-posts-area">--}}
 
                         <!-- Post Details Area -->
                         <div class="single-post-details-area">
@@ -226,10 +226,8 @@
                             </div>
                         </div>
 
-                    </div>
-                </div>
-
-                <!-- Blog Sidebar Area -->
+@endsection
+ {{--               <!-- Blog Sidebar Area -->
                 <div class="col-12 col-sm-9 col-md-6 col-lg-4">
                     <div class="post-sidebar-area">
 
@@ -368,4 +366,4 @@
         </div>
     </section>
     <!-- ##### Blog Content Area End ##### -->
-@endsection
+--}}
