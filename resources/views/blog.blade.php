@@ -1,5 +1,6 @@
 @extends ('2col-layout')
 
+@section('container')
 {{--    <!-- ##### Breadcrumb Area Start ##### -->
     <div class="breadcrumb-area">
         <div class="container">

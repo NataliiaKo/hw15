@@ -13,10 +13,10 @@
     <title>Foode - Food Blog HTML5 Template</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="http://blog.test/public/favicon.ico">
+    <link rel="icon" href="../../public/favicon.ico">
 
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="http://blog.test/style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -24,7 +24,7 @@
 <!-- ##### Preloader ##### -->
 <div class="preloader d-flex align-items-center justify-content-center">
     <div class="circle-preloader">
-        <img src="http://blog.test/img/core-img/logo.png" alt="">
+        <img src="../../public/img/core-img/logo.png" alt="">
         <div class="foode-preloader">
             <span></span>
         </div>
@@ -68,7 +68,7 @@
             <div class="row">
                 <div class="col-12">
                     <!-- Nav brand -->
-                    <a href="/" class="nav-brand"><img src="http://blog.test/img/core-img/logo.png" alt=""></a>
+                    <a href="/" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -82,7 +82,7 @@
                 <nav class="classy-navbar" id="foodeNav">
 
                     <!-- Nav brand -->
-                    <a href="/" class="nav-brand"><img src="http://blog.test/img/core-img/logo.png" alt=""></a>
+                    <a href="/" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">
@@ -108,7 +108,6 @@
                                         <li><a href="/post">Single Post</a></li>
                                         <li><a href="/about-us">About</a></li>
                                         <li><a href="/contact">Contact</a></li>
-                                        <li><a href="/typography.html">Typography</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#">Catagories</a>
@@ -199,37 +198,37 @@
                 <div class="instagram-slides owl-carousel">
                     <!-- Single Instagram Slide -->
                     <div class="single-instagram-slide">
-                        <img src="http://blog.test/img/blog-img/insta1.jpg" alt="">
+                        <img src="img/blog-img/insta1.jpg" alt="">
                         <a href="#"><i class="fa fa-instagram"></i>Follow Me</a>
                     </div>
 
                     <!-- Single Instagram Slide -->
                     <div class="single-instagram-slide">
-                        <img src="http://blog.test/img/blog-img/insta2.jpg" alt="">
+                        <img src="img/blog-img/insta2.jpg" alt="">
                         <a href="#"><i class="fa fa-instagram"></i>Follow Me</a>
                     </div>
 
                     <!-- Single Instagram Slide -->
                     <div class="single-instagram-slide">
-                        <img src="http://blog.test/img/blog-img/insta3.jpg" alt="">
+                        <img src="img/blog-img/insta3.jpg" alt="">
                         <a href="#"><i class="fa fa-instagram"></i>Follow Me</a>
                     </div>
 
                     <!-- Single Instagram Slide -->
                     <div class="single-instagram-slide">
-                        <img src="http://blog.test/img/blog-img/insta4.jpg" alt="">
+                        <img src="img/blog-img/insta4.jpg" alt="">
                         <a href="#"><i class="fa fa-instagram"></i>Follow Me</a>
                     </div>
 
                     <!-- Single Instagram Slide -->
                     <div class="single-instagram-slide">
-                        <img src="http://blog.test/img/blog-img/insta5.jpg" alt="">
+                        <img src="img/blog-img/insta5.jpg" alt="">
                         <a href="#"><i class="fa fa-instagram"></i>Follow Me</a>
                     </div>
 
                     <!-- Single Instagram Slide -->
                     <div class="single-instagram-slide">
-                        <img src="http://blog.test/img/blog-img/insta6.jpg" alt="">
+                        <img src="img/blog-img/insta6.jpg" alt="">
                         <a href="#"><i class="fa fa-instagram"></i>Follow Me</a>
                     </div>
                 </div>
@@ -245,7 +244,7 @@
         <div class="row">
             <div class="col-12">
                 <!-- Footer Curve Line -->
-                <img class="footer-curve" src="http://blog.test/img/core-img/foo-curve.png" alt="">
+                <img class="footer-curve" src="../../public/img/core-img/foo-curve.png" alt="">
                 <!-- Footer Social Info -->
                 <div class="footer-social-info d-flex align-items-center justify-content-between">
                     <a href="#"><i class="fa fa-facebook"></i><span>Facebook</span></a>
@@ -257,7 +256,7 @@
                     <a href="#"><i class="fa fa-youtube"></i><span>Youtube</span></a>
                 </div>
                 <!-- Footer Curve Line -->
-                <img class="footer-curve" src="http://blog.test/img/core-img/foo-curve.png" alt="">
+                <img class="footer-curve" src="img/core-img/foo-curve.png" alt="">
             </div>
         </div>
 
