@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateCategoriesTable extends Migration
+class DropTitlePosts extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,9 @@ class CreateCategoriesTable extends Migration
      */
     public function up()
     {
-        Schema::create('categories', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->string('title')->unique();
-            $table->string('slug')->unique();
-            $table->timestamps();
+        Schema::table('posts', function (Blueprint $table) {
+            //$table->string('title', 255)->change(); //don't change to VARCHAR (255) than we should delete column and create again
+            $table->dropColumn('title');
         });
     }
 
@@ -28,6 +26,6 @@ class CreateCategoriesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('categories');
+        //
     }
 }

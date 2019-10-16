@@ -34,3 +34,7 @@ Route::get('/post', function () {
     return view('post');
 })->name('blog.post');
 
+Route::get('/test', function () {
+    $result=factory(App\Category::class,50)->create();
+    dd($result);
+})->name('blog.post');
